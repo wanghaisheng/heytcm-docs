@@ -18,20 +18,20 @@ export default defineConfig({
         tailwind({ applyBaseStyles: false }),
         starlight({
             plugins: [starlightImageZoom()],
-            title: "OpenMarch",
+            title: "HeyTCM",
             logo: {
-                light: "./public/openmarch-black.svg",
-                dark: "./public/openmarch-white.svg",
+                light: "./public/HeyTCM-black.svg",
+                dark: "./public/HeyTCM-white.svg",
                 replacesTitle: true,
             },
             social: {
                 discord: "https://discord.gg/eTsQ98uZzq",
-                github: "https://github.com/OpenMarch/OpenMarch",
-                patreon: "https://www.patreon.com/c/openmarch",
-                youtube: "https://www.youtube.com/@OpenMarchApp",
+                github: "https://github.com/HeyTCM/HeyTCM",
+                patreon: "https://www.patreon.com/c/HeyTCM",
+                youtube: "https://www.youtube.com/@HeyTCMApp",
             },
             editLink: {
-                baseUrl: "https://github.com/OpenMarch/website/tree/main/",
+                baseUrl: "https://github.com/HeyTCM/website/tree/main/",
             },
             disable404Route: true,
             favicon: "./public/favicon.png",
@@ -63,7 +63,7 @@ export default defineConfig({
             endpointUrl: "https://umami.cool.korhq.com",
         }),
     ],
-    site: "https://openmarch.com",
+    site: "https://HeyTCM.com",
     devToolbar: {
         enabled: false,
     },

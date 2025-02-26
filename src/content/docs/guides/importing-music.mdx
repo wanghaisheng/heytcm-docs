@@ -1,12 +1,12 @@
 ---
 title: "Music Troubleshooting"
-description: "Solutions to OpenMarch music importing bugs"
+description: "Solutions to HeyTCM music importing bugs"
 ---
 
 import { Steps } from "@astrojs/starlight/components";
 import { YouTube } from "astro-embed";
 
-The music integration in OpenMarch is currently extremely minimal.
+The music integration in HeyTCM is currently extremely minimal.
 The best think we can ask for right now is your patience as we work through it. 😊
 
 We have many plans to fix and improve the experience so that it can work for many different types of projects.
@@ -22,7 +22,7 @@ This video walks through the steps if you prefer not to read.
   params="start=972"
 />
 
-> If OpenMarch ever seems broken, refreshing the page `Ctrl + R` will often fix it.
+> If HeyTCM ever seems broken, refreshing the page `Ctrl + R` will often fix it.
 
 ## Current limitations
 
@@ -31,7 +31,7 @@ Since the music integration is so bare bones, keep in mind the following limitat
 - Accelerandos, deccelerandos and other gradual tempo changes are not supported
   - If you must change the tempo gradually, only change the tempo at the **start of the measure**
 - The less information the MusicXML has, the better (with one exception)
-  - The parser OpenMarch uses to extract the tempo information from MusicXML files is not perfect
+  - The parser HeyTCM uses to extract the tempo information from MusicXML files is not perfect
   - Remove all notes from the staff and only have one part. Then, add a single note to the first beat.
   - If it's still not working, try removing all staff notes and other markings
 - If you have a count-in, the MusicXML must also include that
@@ -54,9 +54,9 @@ Follow these steps if you have the sheet music to open in Musescore, Dorico, etc
 1. Ensure that you have a tempo defined on at least on the first note
 1. Click `File` → `Export`
 1. Ensure you have **Main Score** checked
-1. Import this file into OpenMarch by clicking `Music` → `Import MusicXML`
+1. Import this file into HeyTCM by clicking `Music` → `Import MusicXML`
 1. If nothing seems to have happened try refreshing the page with `Ctrl + R`
-   - If it's still not working, reach out on the [community Discord](https://github.com/OpenMarch/OpenMarch) or [dev@openmarch.com](mailto:dev@openmarch.com) for troubleshooting
+   - If it's still not working, reach out on the [community Discord](https://github.com/HeyTCM/HeyTCM) or [dev@HeyTCM.com](mailto:dev@HeyTCM.com) for troubleshooting
 
 </Steps>
 
@@ -93,7 +93,7 @@ Once you have a `.midi` file, you can import it into a music notation software (
 ## Disclaimer
 
 Please know that we are aware of the shortcomings of the current system and are working hard to fix them.
-I invite you to use OpenMarch's many shortcomings as opportunities to hack your way through and figure out how you can make it work 🙂.
+I invite you to use HeyTCM's many shortcomings as opportunities to hack your way through and figure out how you can make it work 🙂.
 
 As always, this project is made up entirely of volunteers doing the best they can with the free time they can spare.
-Please consider donating to the [Patreon](https://www.patreon.com/c/openmarch) to show your support for our team.
+Please consider donating to the [Patreon](https://www.patreon.com/c/HeyTCM) to show your support for our team.

@@ -37,7 +37,7 @@ export default function Nav() {
                     >
                         About
                     </a>
-                    <a href="https://github.com/OpenMarch/OpenMarch">
+                    <a href="https://github.com/HeyTCM/HeyTCM">
                         <Button
                             variant="secondary"
                             size="compact"
@@ -57,7 +57,7 @@ export default function Nav() {
                             Discord
                         </Button>
                     </a>
-                    <a href="https://www.patreon.com/openmarch">
+                    <a href="https://www.patreon.com/HeyTCM">
                         <Button
                             variant="secondary"
                             size="compact"
@@ -98,7 +98,7 @@ export default function Nav() {
                     Blog
                 </a>
                 <a
-                    href="https://github.com/OpenMarch/OpenMarch"
+                    href="https://github.com/HeyTCM/HeyTCM"
                     className="flex items-center gap-8 text-h4 text-text"
                 >
                     <LogoGitHub />
@@ -112,7 +112,7 @@ export default function Nav() {
                     Discord
                 </a>
                 <a
-                    href="https://www.patreon.com/openmarch"
+                    href="https://www.patreon.com/HeyTCM"
                     className="flex items-center gap-8 text-h4 text-text"
                 >
                     <LogoPatreon />

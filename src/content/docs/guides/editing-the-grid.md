@@ -1,9 +1,9 @@
 ---
 title: "Editing the Grid"
-description: "How to adjust the field or grid in OpenMarch to meet your ensemble's needs"
+description: "How to adjust the field or grid in HeyTCM to meet your ensemble's needs"
 ---
 
-OpenMarch allows designers to make their own field with whatever measurements and specifications they want, as long as it's a rectangle.
+HeyTCM allows designers to make their own field with whatever measurements and specifications they want, as long as it's a rectangle.
 Designers can write for football field, indoor floors, or any other rectangular performance surface.
 
 > Note that in this guide, "field" and "grid" are used interchangeably.
@@ -32,7 +32,7 @@ If you need to modify it, you can click "Customize" to make changes to the field
 
 ## Importing and Exporting Fields
 
-OpenMarch can save your custom field as a `.fielddots` file.
+HeyTCM can save your custom field as a `.fielddots` file.
 
 - Any background image imported _will not_ be saved in the `.fieilddots` file
 - The field is not saved to a file automatically and must be exported manually if you want to use it in other shows
@@ -49,8 +49,8 @@ OpenMarch can save your custom field as a `.fielddots` file.
 - **Step Size**
   - In inches or centimeters, the real-life size of the step the grid is based on
     - Note that if you switch to imperial or metric, the measurement of the field will follow that system
-    - You can switch back and forth without any change or issues. OpenMarch will automatically convert the field measurements to the new system
-  - The "pixels per inch" in OpenMarch is constant, so adjusting this will ensure that the dots are always the correct size across different sized grids and fields
+    - You can switch back and forth without any change or issues. HeyTCM will automatically convert the field measurements to the new system
+  - The "pixels per inch" in HeyTCM is constant, so adjusting this will ensure that the dots are always the correct size across different sized grids and fields
   - In the future, this will also be used to calculate marcher step size with multiple measurement systems
 - **Half line interval**
   - The interval to render the darker "half lines" at from the center and front of the field
@@ -117,7 +117,7 @@ Coordinates on the X-axis, e.g. yard lines.
     - 40 S1 = -16 steps
     - 35 S2 = 24 steps
 - The distance of the minimum and maximum X-Checkpoints determines the width of the field
-  - These _must_ be equidistant from the center. If not, strange graphical things may happen and OpenMarch will warn you
+  - These _must_ be equidistant from the center. If not, strange graphical things may happen and HeyTCM will warn you
   - E.g. in an 8-to-5 football field with no endzones:
     - 0 S1 = -80 steps
     - 0 S2 = 80 steps
@@ -138,7 +138,7 @@ Coordinates on the Y-axis, e.g. hashes.
     - ![Field without hashes](/docs/guides/field/image-9.png)
 - Determined by the steps from the front of the field
 - The most negative Y-Checkpoint determines the height of the field
-  - The steps should _always_ be negative with 0 being the front. If not, strange graphical things may happen and OpenMarch will warn you
+  - The steps should _always_ be negative with 0 being the front. If not, strange graphical things may happen and HeyTCM will warn you
   - E.g. on a 50 foot tall floor with a step size of 24 inches
     - Front line = 0 steps
     - Back line = -25 steps

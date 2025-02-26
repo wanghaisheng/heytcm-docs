@@ -1,4 +1,4 @@
-# OpenMarch Website
+# HeyTCM Website
 
 Here is our main website, and documentation!
 

@@ -1,13 +1,13 @@
 ---
 title: "Stack"
-description: "What OpenMarch is built with"
+description: "What HeyTCM is built with"
 ---
 
 We have made our stack as easy as possible to contribute to, using common technolgies.
 
 # App
 
-We use [Electron](https://www.electronjs.org/) to make OpenMarch work as a desktop app. It uses Node.js for system functionalites and supports a wide range of front-end frameworks. It runs anywhere, as it is basically just a Chromium browser.
+We use [Electron](https://www.electronjs.org/) to make HeyTCM work as a desktop app. It uses Node.js for system functionalites and supports a wide range of front-end frameworks. It runs anywhere, as it is basically just a Chromium browser.
 
 # Front-end
 

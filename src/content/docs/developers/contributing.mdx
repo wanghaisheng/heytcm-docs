@@ -1,6 +1,6 @@
 ---
 title: "Contributing"
-description: "Introduction to developing OpenMarch"
+description: "Introduction to developing HeyTCM"
 sidebar:
   order: -1
 ---
@@ -8,9 +8,9 @@ sidebar:
 import { LinkCard } from "@astrojs/starlight/components";
 import { Steps } from "@astrojs/starlight/components";
 
-Get in here and contribute to OpenMarch! Learn our stack and codebase here.
+Get in here and contribute to HeyTCM! Learn our stack and codebase here.
 
-We'd reccommend to take a look at all of our [tasks](https://github.com/OpenMarch/OpenMarch/issues), and pick some you'd like to work on. The ones with `good first issue` and `help wanted` tags are good for getting started.
+We'd reccommend to take a look at all of our [tasks](https://github.com/HeyTCM/HeyTCM/issues), and pick some you'd like to work on. The ones with `good first issue` and `help wanted` tags are good for getting started.
 
 Feel free to ask questions in the Discord if you're having problems with anything.
 
@@ -26,7 +26,7 @@ Feel free to ask questions in the Discord if you're having problems with anythin
 <Steps>
 
 1. Download & install [Node.js](https://nodejs.org/en)
-2. Download the code via git from the main branch (if you're contributing, [make a fork](https://github.com/OpenMarch/OpenMarch/fork) and clone your own repo): `git clone https://github.com/OpenMarch/OpenMarch.git`
+2. Download the code via git from the main branch (if you're contributing, [make a fork](https://github.com/HeyTCM/HeyTCM/fork) and clone your own repo): `git clone https://github.com/HeyTCM/HeyTCM.git`
    - You might need to download git for this. You can also use other methods like the GitHub CLI
 3. Install dependencies: `npm install` (may take a while)
    - You might get a bunch of scary npm errors after installing. If running the app doesn't work after, follow [these steps](https://github.com/Automattic/node-canvas?tab=readme-ov-file#compiling) to fix it.
@@ -44,7 +44,7 @@ Our simplified directory structure:
   - /main
   - /preload - Preload script for IPC
 - `/src` - the "renderer" process, this is our react frontend.
-  - `/components` - In here you find all the components of OpenMarch, the sidebars, titlebar, dialogs, UI component primitives. All of them are in their subfolder.
+  - `/components` - In here you find all the components of HeyTCM, the sidebars, titlebar, dialogs, UI component primitives. All of them are in their subfolder.
   - `/context` - React Context for the app of some sort of state/value
   - `/global` - Classes, objects and functions for various items in the app, such as Page, Marcher, MarcherShape, etc.
   - `/stores` - Global stores for certain items and actions, such as the list of Pages and Marchers

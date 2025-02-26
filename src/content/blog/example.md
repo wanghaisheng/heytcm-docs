@@ -5,7 +5,7 @@ date: 2023-11-27
 image: "/blog/placeholder.jpg"
 ---
 
-This is OpenMarch's first public update! Not much to see here besides basic features.
+This is HeyTCM's first public update! Not much to see here besides basic features.
 - Moving marchers
 - Changing pages
 - Displaying coordinates by steps

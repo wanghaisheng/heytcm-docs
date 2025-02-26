@@ -1,9 +1,9 @@
 ---
 title: "Master Feature List"
-description: "Everything OpenMarch can do"
+description: "Everything HeyTCM can do"
 ---
 
-These are all the current features that OpenMarch supports.
+These are all the current features that HeyTCM supports.
 Documentation is coming for the more complicated features.
 
 ## Field & Display
@@ -67,4 +67,4 @@ Documentation is coming for the more complicated features.
 ## System Support
 
 - Windows, Mac, and Linux support
-- Built with web technologies, so OpenMarch can hypothetically run anywhere Chrome can
+- Built with web technologies, so HeyTCM can hypothetically run anywhere Chrome can
